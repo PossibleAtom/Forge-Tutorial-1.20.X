@@ -1,6 +1,7 @@
 package net.kegs.tutorialmod.item;
 
 import net.kegs.tutorialmod.TutorialMod;
+import net.kegs.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +25,10 @@ public class ModCreativeModeTabs {
 
                         // vanilla item example
                         pOutput.accept(Items.DIAMOND);
+
+                        //block example
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     }))
                     .build());
 

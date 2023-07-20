@@ -1,6 +1,7 @@
 package net.kegs.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.kegs.tutorialmod.block.ModBlocks;
 import net.kegs.tutorialmod.item.ModCreativeModeTabs;
 import net.kegs.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -33,6 +34,7 @@ public class TutorialMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
