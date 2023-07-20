@@ -1,6 +1,7 @@
 package net.kegs.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.kegs.tutorialmod.item.ModCreativeModeTabs;
 import net.kegs.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,8 @@ public class TutorialMod {
 
     public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
