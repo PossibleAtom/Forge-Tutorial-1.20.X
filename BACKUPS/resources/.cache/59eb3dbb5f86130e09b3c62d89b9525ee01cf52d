@@ -1,7 +1,9 @@
-// 1.20.1	2023-07-25T21:27:33.5223365	Loot Tables
+// 1.20.1	2023-07-25T22:14:57.1636705	Loot Tables
 b9a0d59864d956dfac42e9db2b2afab1383bd1c6 data/tutorial_mod/loot_tables/blocks/deepslate_sapphire_ore.json
 df3b8059a1b231b858968661a2954935e78cb9e7 data/tutorial_mod/loot_tables/blocks/ebony_log.json
 8b53ec4d66f74b574e9cbcd4aa77418868b6fb36 data/tutorial_mod/loot_tables/blocks/ebony_planks.json
+1429f238c37ed31552a7e80d84a14e93e82dafa3 data/tutorial_mod/loot_tables/blocks/ebony_slab.json
+8004d17eca0ea98e1611e323a451b9be943a8b75 data/tutorial_mod/loot_tables/blocks/ebony_stairs.json
 81219f87f7a953fe445f18da400ee66451498b54 data/tutorial_mod/loot_tables/blocks/ebony_wood.json
 eb123cc6e588c24f67902416bac6db5b75a69524 data/tutorial_mod/loot_tables/blocks/end_sapphire_ore.json
 383508c207c64709d2460b44b342b5867eb72503 data/tutorial_mod/loot_tables/blocks/nether_sapphire_ore.json
