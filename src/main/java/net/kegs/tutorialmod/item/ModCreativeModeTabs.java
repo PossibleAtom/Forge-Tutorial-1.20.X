@@ -33,6 +33,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.EBONY_PLANKS.get());
+                        pOutput.accept(ModBlocks.EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_EBONY_WOOD.get());
+                        pOutput.accept(ModBlocks.EBONY_SLAB.get());
+                        pOutput.accept(ModBlocks.EBONY_STAIRS.get());
                     }))
                     .build());
 

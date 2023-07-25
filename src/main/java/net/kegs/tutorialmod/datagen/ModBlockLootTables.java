@@ -29,6 +29,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
         add(ModBlocks.END_SAPPHIRE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.END_SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
+
+        dropSelf((ModBlocks.EBONY_PLANKS.get()));
+        dropSelf((ModBlocks.EBONY_LOG.get()));
+        dropSelf((ModBlocks.EBONY_WOOD.get()));
+        dropSelf((ModBlocks.STRIPPED_EBONY_LOG.get()));
+        dropSelf((ModBlocks.STRIPPED_EBONY_WOOD.get()));
+        dropSelf((ModBlocks.EBONY_SLAB.get()));
+        dropSelf((ModBlocks.EBONY_STAIRS.get()));
     }
 
     @Override

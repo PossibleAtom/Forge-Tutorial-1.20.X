@@ -4,6 +4,13 @@
 
   "block.tutorial_mod.sapphire_block": "Sapphire Block",
   "block.tutorial_mod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.tutorial_mod.ebony_planks": "Ebony Planks",
+  "block.tutorial_mod.ebony_log": "Ebony Log",
+  "block.tutorial_mod.ebony_wood": "Ebony Wood",
+  "block.tutorial_mod.stripped_ebony_log": "Stripped Ebony Log",
+  "block.tutorial_mod.stripped_ebony_wood": "Stripped Ebony Log",
+  "block.tutorial_mod.ebony_slab": "Ebony Slab",
+  "block.tutorial_mod.ebony_stairs": "Ebony Stairs",
 
   "block.tutorial_mod.sapphire_ore": "Sapphire Ore",
   "block.tutorial_mod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
